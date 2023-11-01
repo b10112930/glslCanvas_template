@@ -100,5 +100,5 @@ void main() {
     float glow_circle = glow(diamond, strength, thickness);
     result+=glow_circle;
 }
-    gl_FragColor = vec4((vec3(result)+fog)*dir*vec3(0.910,0.287,0.446)*0.144,1.0);
+    gl_FragColor = vec4((vec3(result)+fog)*dir*vec3(0.910,0.876,0.849)*0.144,1.0);
 }
